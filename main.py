@@ -1,11 +1,10 @@
 class Student:
     # [assignment] Skeleton class. Add your code here
-    def __init__(self):
-        pass
+    def __init__(self, name, age, tracks, score):
+        
 
 
-
-Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
+Bob = Student(name="Bob", age=26, tracks=["FE", "BE"], score=20.90)
 
 # Expected methods
 Bob.change_name("Peter")
